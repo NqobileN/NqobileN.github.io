@@ -1,0 +1,194 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-weight: bold;
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+  color: white;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+nav {
+  padding: 20px 0;
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-flex;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+}
+
+nav a:hover {
+  color: black;
+}
+
+footer p {
+  color: black;
+  font-size: 20px;
+}
+
+footer a {
+  font-size: 30px;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.foot-link p {
+  color: white;
+}
+
+.foot-link a:hover {
+  color: white;
+}
+
+.hero {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Sorts Mill Goudy", serif;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  line-height: 2;
+  font-weight: normal;
+  color: grey;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content-container h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.content-container h2 {
+  font-size: 18px;
+}
+
+.content h3 {
+  font-size: 26px;
+  line-height: 1.5;
+}
+
+.content p {
+  font-size: 18px;
+  color: grey;
+}
+
+.content {
+  margin: 30px;
+}
+
+.logo {
+  max-width: 80px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: darkgray;
+}
+
+.btn-branding {
+  color: black;
+  background: white;
+  border-radius: 4px;
+  font-size: 24px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin: 20px;
+}
+
+.btn-branding-outline {
+  color: white;
+  background: black;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 24px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+.btn-branding:hover {
+  background: black;
+  color: white;
+  border: 2px solid white;
+}
+.btn-branding-outline:hover {
+  background: white;
+  color: black;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
