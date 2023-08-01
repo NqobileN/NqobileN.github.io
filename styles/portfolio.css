@@ -68,7 +68,7 @@ footer a:hover {
 
 .tech-stack {
   font-family: "Sorts Mill Goudy", serif;
-  font-size: 18px;
+  font-size: 22px;
   color: grey;
   line-height: 1.5;
 }
@@ -205,5 +205,9 @@ footer a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .tech-stack {
+    list-style: none;
   }
 }
