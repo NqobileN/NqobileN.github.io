@@ -72,6 +72,15 @@ footer a:hover {
   color: grey;
   line-height: 1.5;
 }
+
+.tech-stack-icons {
+  font-size: 80px;
+}
+
+.tech-stack-icons:hover {
+  color: white;
+}
+
 .foot-link p {
   color: white;
 }
