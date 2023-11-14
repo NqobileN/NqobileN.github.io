@@ -53,6 +53,12 @@ nav a:hover {
   color: black;
 }
 
+nav a.active {
+  color: rgb(252, 160, 242);
+  font-size: 26px;
+  font-weight: bold;
+}
+
 footer p {
   color: black;
   font-size: 20px;
@@ -147,6 +153,11 @@ footer a:hover {
 
 .nav-link:hover {
   color: darkgray;
+}
+
+.nav-link.active {
+  color: rgb(255, 192, 248);
+  font-weight: bold;
 }
 
 .btn-branding {
