@@ -80,7 +80,7 @@ footer a:hover {
 .tech-stack {
   font-family: "Sorts Mill Goudy", serif;
   font-size: 22px;
-  color: grey;
+  color: rgb(199, 196, 196);
   line-height: 1.5;
 }
 
@@ -141,7 +141,7 @@ footer a:hover {
 
 .content p {
   font-size: 18px;
-  color: grey;
+  color: rgb(199, 196, 196);
 }
 
 .content {
@@ -200,6 +200,10 @@ footer a:hover {
   padding: 120px 60px;
 }
 
+.project-title:hover {
+  text-decoration:underline;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -225,5 +229,9 @@ footer a:hover {
 
   .tech-stack {
     list-style: none;
+  }
+
+  .tech-stack-icons {
+    color: white;
   }
 }
