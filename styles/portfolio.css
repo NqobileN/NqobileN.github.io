@@ -40,8 +40,9 @@ nav li {
   display: inline-flex;
   list-style: none;
   line-height: 40px;
-  margin-left: 10px;
+  margin-left: 180px;
   font-size: 22px;
+ 
 }
 
 nav a {
@@ -153,6 +154,10 @@ footer a:hover {
   max-width: 80px;
 }
 
+.navbar-toggler:hover {
+  color: rgb(252, 160, 242);
+}
+
 .nav-link {
   color: white;
 }
@@ -161,10 +166,6 @@ footer a:hover {
   color: darkgray;
 }
 
-.nav-link.active {
-  color: rgb(255, 192, 248);
-  font-weight: bold;
-}
 
 .btn-branding {
   color: black;
@@ -213,6 +214,10 @@ footer a:hover {
   h2 {
     font-size: 44px;
   }
+  
+  nav li {
+    margin-left: 20px;
+  }
 
   .hero {
     padding: 50px 20px;
@@ -221,6 +226,10 @@ footer a:hover {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+
+  .navbar-toggler{
+    background-color: white;
   }
 
   .project-description {
