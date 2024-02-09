@@ -42,7 +42,6 @@ nav li {
   line-height: 40px;
   margin-left: 160px;
   font-size: 20px;
- 
 }
 
 nav a {
@@ -62,14 +61,11 @@ nav a.active {
 
 footer {
   padding-top: 70px;
- 
 }
 
 footer p {
   color: white;
   font-size: 20px;
-  
-
 }
 
 footer a {
@@ -168,7 +164,7 @@ footer a:hover {
 .nav-link:hover {
   color: darkgray;
 }
- 
+
 .btn-branding {
   color: black;
   background: white;
@@ -205,11 +201,10 @@ footer a:hover {
 }
 
 .project-title:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 @media (max-width: 1500px) {
-
   nav li {
     display: inline-flex;
     list-style: none;
@@ -224,7 +219,6 @@ footer a:hover {
   }
 }
 
-
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -233,7 +227,7 @@ footer a:hover {
   h2 {
     font-size: 44px;
   }
-  
+
   nav li {
     margin-left: 20px;
   }
@@ -244,10 +238,9 @@ footer a:hover {
 
   .content-container {
     text-align: center;
-
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     background-color: white;
   }
 
